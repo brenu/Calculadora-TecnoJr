@@ -34,7 +34,7 @@
                         <td id="mult" ><button class="btn btn-default">*</button></td>
                     </tr>
                     <tr>
-                        <td id="one" ><button class="btn btn-default" onclick="alert('Iae')">1</button></td>
+                        <td id="one" ><button class="btn btn-default">1</button></td>
                         <td id="two" ><button class="btn btn-default">2</button></td>
                         <td id="three" ><button class="btn btn-default">3</button></td>
                         <td id="sub" ><button class="btn btn-default">-</button></td>
@@ -45,20 +45,15 @@
                         <td id="add" ><button class="btn btn-default">+</button></td>
                     </tr>
                     <tr>
-                        <td id="equals" colspan="4" ><button class="btn btn-default">=</button></td>
+                        <td id="equals" colspan="4" ><button class="btn btn-default" onclick="noClique();">=</button></td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
-    <script>
-        console.log(
-                 getElementsByTagName('td')
-            );
-    </script>
-    <script type="text/javascript" src="js/calculadora.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/calculadora.js"></script>
     <?php
         require_once 'includes/footer.php';
     ?>
